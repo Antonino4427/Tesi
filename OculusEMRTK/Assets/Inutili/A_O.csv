@@ -1,0 +1,9 @@
+door;touch;;;;;;;
+plant;pick;place;water;;;;;
+sink;wash in;;;;;;;
+toilet;sit on;;;;;;;
+chair;sit on;;;;;;;
+table;touch;;;;;;;
+man;talk to;greet;hug;attack;jump;wait;clap;dance
+woman;talk to;greet;hug;attack;jump;wait;clap;dance
+zombie;talk to;attack;kill;jump;wait;;;

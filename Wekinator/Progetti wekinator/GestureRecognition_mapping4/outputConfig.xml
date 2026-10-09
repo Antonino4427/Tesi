@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/outputs/mapping_4</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>12000</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCNumericOutput>
+      <name>Positive_high</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Positive_low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Negative_high</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Negative_low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+  </outputs>
+</OSCOutputGroup>

@@ -1,0 +1,17 @@
+state1;action;state2
+open;close;closed
+closed;open;open
+intact;break;broken
+broken;repair;intact
+lifted;drop;fallen
+fallen;raise;lifted
+standing;sit;sitting
+sitting;stand;standing
+happy;attack;sad
+sad;hug;happy
+on;turn off;off
+off;turn on;on
+empty;fill;full
+full;rifle;empty
+standing;play;playing
+playing;stop play;standing
